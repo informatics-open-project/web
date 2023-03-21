@@ -9,11 +9,11 @@ type HeaderProps = {
 const Header = ({ logo, links }: HeaderProps) => {
   const router = useRouter();
   const isActive = (link: string) =>
-    router.pathname === link ? "text-blue-600 font-bold" : "text-gray-500 ";
+    router.pathname === link ? "text-blue-500" : "text-gray-500";
 
   return (
     <div className="mx-auto flex w-full max-w-[968px] justify-center px-2 py-4 sm:justify-between">
-      <div className="font-bold">{logo}</div>
+      <div className="flex items-center font-bold">{logo}</div>
 
       <div className="hidden gap-4 md:flex">
         {links.map((link) => {

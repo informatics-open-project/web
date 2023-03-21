@@ -18,6 +18,9 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    domains: ["dummyimage.com"],
+  },
   experimental: {
     fontLoaders: [
       { loader: "next/font/google", options: { subsets: ["latin"] } },

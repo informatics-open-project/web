@@ -12,7 +12,7 @@ type BottomNavigationProps = {
 
 const BottomNavigation = ({ links }: BottomNavigationProps) => {
   return (
-    <div className="absolute bottom-0 left-0 right-0 flex max-h-20 w-full justify-around p-2">
+    <div className="fixed bottom-0 left-0 right-0 flex max-h-20 w-full justify-around border-t bg-white p-2">
       {links.map((link) => {
         return (
           <BottomNavigationItem
@@ -40,7 +40,7 @@ const BottomNavigationItem = ({
     <div
       // eslint-disable-next-line @typescript-eslint/no-misused-promises
       onClick={() => router.push(href)}
-      className={`${isActive} flex flex-grow cursor-pointer flex-col items-center gap-1 rounded-full p-2 px-4 py-2 transition-all duration-150`}
+      className={`${isActive} flex flex-grow cursor-pointer flex-col items-center gap-1 rounded-xl p-2 px-4 py-2 transition-all duration-150`}
     >
       <div>{icon}</div>
       <span className="text-xs">{label}</span>

@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { AnimatePresence, LazyMotion, domAnimation } from "framer-motion";
 import { Analytics } from "@vercel/analytics/react";
+import NextProgress from "next-progress";
 
 const jakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -19,6 +20,8 @@ export default function App({ Component, pageProps }: AppProps) {
         mode="wait"
       >
         <div className={`${jakartaSans.variable} font-serif`}>
+          <div className="fixed -z-10 h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-blue-100" />
+          <NextProgress />
           <Component {...pageProps} />
           <Analytics />
         </div>
