@@ -6,12 +6,12 @@ const Home = () => {
 
   return (
     <Container>
-      <div className="flex flex-col items-center gap-4 p-4">
+      <div className="flex h-[calc(100vh-124px)] flex-col items-center justify-center gap-4 p-4">
         <div className="rounded-full bg-blue-100 px-4 py-2 text-sm font-bold tracking-wide text-blue-500 ">
           Coming Soon
         </div>
 
-        <h1 className="font-display max-w-[704px] bg-gradient-to-br from-black to-stone-500 bg-clip-text p-4 pb-0 text-center text-center text-5xl text-4xl font-extrabold font-bold tracking-tight tracking-[-0.02em] text-slate-900 text-transparent drop-shadow-sm md:p-6 md:text-7xl md:text-7xl md:leading-[5rem] lg:text-8xl">
+        <h1 className="font-display max-w-[704px] bg-gradient-to-br from-black to-stone-500 bg-clip-text p-4 pb-0 text-center text-5xl font-bold tracking-[-0.02em] text-slate-900 text-transparent drop-shadow-sm md:p-6 md:text-7xl  md:leading-[5rem] lg:text-8xl">
           <span className="display: inline-block; vertical-align: top; text-decoration: inherit; max-width: 433px;">
             Revolutionize Your Ideas with Us
           </span>
