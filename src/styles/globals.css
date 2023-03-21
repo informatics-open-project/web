@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filled-button {
+  @apply flex w-max items-center justify-center rounded-lg bg-blue-500 py-3 px-4 text-xs text-white transition-all duration-150 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-blue-50 md:text-sm;
+}
+
+.outline-button {
+  @apply flex w-max items-center justify-center rounded-lg bg-white py-3 px-4 text-xs text-blue-500 ring-1 ring-blue-500 transition-all duration-150 hover:bg-sky-100 focus:ring-2 focus:ring-sky-200 focus:ring-offset-2 focus:ring-offset-blue-50 md:text-sm;
+}
