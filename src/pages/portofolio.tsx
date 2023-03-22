@@ -10,10 +10,14 @@ const Portofolio = () => {
           <span className="text-4xl font-bold md:text-6xl">Portofolio</span>
         </div>
 
+        <div>
+          <p></p>
+        </div>
+
         <div className="columns-1 gap-6 md:columns-2">
           {portofolioConfig.map((item) => (
             <div className="portofolio-card" key={item.id}>
-              <div className=" overflow-hidden rounded-2xl bg-white">
+              <div className="overflow-hidden rounded-2xl bg-white">
                 <Image
                   className="h-56 w-full object-cover object-center"
                   src={item.image}
@@ -33,6 +37,7 @@ const Portofolio = () => {
                     <a
                       href={item.href}
                       className="cursor-pointer text-xs leading-relaxed text-slate-600 hover:underline md:text-sm"
+                      target="_blank"
                     >
                       Lihat Website
                     </a>

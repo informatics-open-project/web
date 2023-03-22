@@ -19,7 +19,7 @@ const config = {
     defaultLocale: "en",
   },
   images: {
-    domains: ["dummyimage.com"],
+    domains: ["dummyimage.com", "github.com"],
   },
   experimental: {
     fontLoaders: [
