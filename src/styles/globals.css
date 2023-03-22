@@ -13,3 +13,7 @@
 .portofolio-card {
   @apply mb-6 flex h-max w-full overflow-hidden rounded-xl border border-gray-200 bg-white;
 }
+
+.about-card {
+  @apply flex h-max w-full flex-col items-center justify-center gap-4 overflow-hidden rounded-xl border border-gray-200 bg-white py-8;
+}

@@ -12,7 +12,7 @@ const Header = ({ logo, links }: HeaderProps) => {
     router.pathname === link ? "text-blue-500" : "text-gray-500";
 
   return (
-    <div className="mx-auto flex w-full max-w-[968px] justify-center px-2 py-4 sm:justify-between">
+    <div className="mx-auto flex w-full max-w-[968px] justify-center px-2 py-4 md:justify-between">
       <div className="flex items-center font-bold">{logo}</div>
 
       <div className="hidden gap-4 md:flex">

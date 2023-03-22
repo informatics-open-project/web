@@ -16,15 +16,10 @@ const About = () => {
           </div>
 
           <div
-            className={`columns-1 ${
-              aboutConfig.length > 2 ? "md:columns-3" : "md:columns-2"
-            } gap-6`}
+            className={`grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3`}
           >
             {aboutConfig.map((item) => (
-              <div
-                className="flex w-full flex-col items-center justify-center gap-4 p-4"
-                key={item.id}
-              >
+              <div className="about-card" key={item.id}>
                 <Image
                   className="h-40 w-40 rounded-full object-cover object-center"
                   src={item.image}
