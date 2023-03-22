@@ -10,7 +10,7 @@ const Portofolio = () => {
           <span className="text-4xl font-bold md:text-6xl">Portofolio</span>
         </div>
 
-        <div className="flex flex-wrap gap-6">
+        <div className="columns-1 gap-6 md:columns-2">
           {portofolioConfig.map((item) => (
             <div className="portofolio-card" key={item.id}>
               <div className=" overflow-hidden rounded-2xl bg-white">
@@ -26,7 +26,7 @@ const Portofolio = () => {
                   <h1 className="title-font text-lg font-bold text-gray-900">
                     {item.title}
                   </h1>
-                  <p className="text-xs leading-relaxed text-slate-400 md:text-sm">
+                  <p className="text-justify text-xs leading-relaxed text-slate-400 md:text-sm">
                     {item.description}
                   </p>
                   {item.href && (
@@ -43,6 +43,7 @@ const Portofolio = () => {
                       <div
                         className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 px-2 py-1 text-xs font-medium leading-4 text-gray-800"
                         key={stack.title}
+                        data-tooltip-target="tooltip-stack"
                       >
                         {stack.icon}
                       </div>

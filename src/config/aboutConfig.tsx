@@ -7,7 +7,7 @@ import {
   IconBrandTypescript,
 } from "@tabler/icons-react";
 
-const portofolioConfig = [
+const aboutConfig = [
   {
     id: 1,
     title: "Informatics Gathering (I-Gate) 2022 Ticket Website",
@@ -41,7 +41,7 @@ const portofolioConfig = [
     href: "https://anforcom.com",
     description:
       "Annual Informatic Competition (Anforcom) adalah sebuah kompetisi mobile apps berskala nasional yang diselenggarakan oleh Himpunan Mahasiswa Informatika Universitas Diponegoro. Kami membuat website landing page untuk Anforcom 2022",
-    image: "/anforcom-web.png",
+    image: "/i-gate.png",
     stack: [
       {
         title: "Next.js",
@@ -64,7 +64,7 @@ const portofolioConfig = [
     href: null,
     description:
       "Annual Informatic Competition (Anforcom) adalah sebuah kompetisi mobile apps berskala nasional yang diselenggarakan oleh Himpunan Mahasiswa Informatika Universitas Diponegoro. Kami membuat dashboard page untuk Anforcom 2022",
-    image: "/anforcom-app.png",
+    image: "/i-gate.png",
     stack: [
       {
         title: "Node.js",
@@ -91,7 +91,7 @@ const portofolioConfig = [
     href: "https://ios.hmif-undip.com",
     description:
       "Informatics Ongoing Story adalah buletin daring yang menyediakan informasi seputar teknologi, informatika, dan Departemen Informatika Universitas Diponegoro kepada mahasiswa Informatika dan masyarakat umum.",
-    image: "/ios.png",
+    image: "/i-gate.png",
     stack: [
       {
         title: "Next.js",
@@ -109,6 +109,6 @@ const portofolioConfig = [
   },
 ];
 
-export type PortofolioConfigType = typeof portofolioConfig;
+export type PortofolioConfigType = typeof aboutConfig;
 
-export default portofolioConfig;
+export default aboutConfig;

@@ -11,5 +11,5 @@
 }
 
 .portofolio-card {
-  @apply flex h-max w-full overflow-hidden rounded-xl border border-gray-200 bg-white md:w-[calc(50%-12px)];
+  @apply mb-6 flex h-max w-full overflow-hidden rounded-xl border border-gray-200 bg-white;
 }
