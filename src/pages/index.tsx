@@ -17,7 +17,7 @@ const Home = () => {
           </span>
         </h1>
 
-        <span className=" sm:text-md mx-auto w-5/6 max-w-3xl p-2 text-center text-sm text-slate-400 md:text-lg">
+        <span className="sm:text-md mx-auto w-5/6 max-w-3xl p-2 text-center text-sm text-slate-400 md:text-lg">
           Informatics Open Project menyediakan berbagai layanan solusi web,
           aplikasi mobile, dan game terbaik untuk Anda.
         </span>
