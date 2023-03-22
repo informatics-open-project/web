@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <Container>
-      <div className="flex h-[calc(100vh-124px)] flex-col items-center justify-center gap-4 p-4">
+      <div className="flex min-h-[calc(100vh-208px)] flex-col items-center justify-center gap-4 p-4">
         <div className="rounded-full bg-blue-100 px-4 py-2 text-sm font-bold tracking-wide text-blue-500 ">
           Coming Soon
         </div>

@@ -64,4 +64,6 @@ const Portofolio = () => {
   );
 };
 
+Portofolio.pageTitle = "Portofolio";
+
 export default Portofolio;

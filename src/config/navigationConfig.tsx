@@ -2,7 +2,7 @@ import { IconArtboard, IconHome2, IconUsers } from "@tabler/icons-react";
 
 const navigationConfig = [
   {
-    label: "Home",
+    label: "Beranda",
     href: "/",
     icon: <IconHome2 />,
   },
@@ -12,7 +12,7 @@ const navigationConfig = [
     icon: <IconArtboard />,
   },
   {
-    label: "About Us",
+    label: "Tentang Kami",
     href: "/about",
     icon: <IconUsers />,
   },

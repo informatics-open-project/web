@@ -17,12 +17,12 @@ const Footer = () => {
               href="/privacy-policy"
               className="mr-4 hover:underline md:mr-6"
             >
-              Privacy Policy
+              Ketentuan Privasi
             </Link>
           </li>
           <li>
             <Link href="/terms-conditions" className="hover:underline">
-              Terms and Conditions
+              Syarat dan Ketentuan
             </Link>
           </li>
         </ul>
