@@ -1,6 +1,4 @@
 import Container from "@/components/Container";
-import aboutConfig from "@/config/aboutConfig";
-import Image from "next/image";
 
 const About = () => {
   return (

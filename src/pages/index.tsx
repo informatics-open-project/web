@@ -26,9 +26,9 @@ const Home = () => {
           <button
             className="filled-button"
             // eslint-disable-next-line @typescript-eslint/no-misused-promises
-            onClick={() => router.push("https://cal.com/iojek")}
+            onClick={() => router.push("/request-quotation")}
           >
-            Hubungi Kami
+            Minta Penawaran
           </button>
           <button
             className="outline-button"

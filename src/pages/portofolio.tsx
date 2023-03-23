@@ -17,7 +17,7 @@ const Portofolio = () => {
         <div className="columns-1 gap-6 md:columns-2">
           {portofolioConfig.map((item) => (
             <div className="portofolio-card" key={item.id}>
-              <div className="overflow-hidden rounded-2xl bg-white">
+              <div className="overflow-hidden bg-white">
                 <Image
                   className="h-56 w-full object-cover object-center"
                   src={item.image}
