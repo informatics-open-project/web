@@ -29,6 +29,6 @@ const NotFound = () => {
   );
 };
 
-NotFound.pageTitle = "Halaman Tidak Ditemukan";
+NotFound.title = "Halaman Tidak Ditemukan";
 
 export default NotFound;

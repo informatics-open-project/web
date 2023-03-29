@@ -7,7 +7,9 @@ const About = () => {
     <Container>
       <div className="min-h-[calc(100vh-208px)] p-6">
         <div className="mt-0 mb-8 flex justify-center md:mt-16 md:mb-28">
-          <span className="text-4xl font-bold md:text-6xl">Tentang Kami</span>
+          <span className="text-center text-4xl font-bold md:text-6xl">
+            Tentang Kami
+          </span>
         </div>
 
         <div className="w-full text-center">
@@ -54,6 +56,6 @@ const About = () => {
   );
 };
 
-About.pageTitle = "About Us";
+About.title = "About Us";
 
 export default About;

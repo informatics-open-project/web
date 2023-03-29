@@ -17,7 +17,7 @@ const CustomSeo: React.FunctionComponent<CustomSeoProps> = ({
     <NextSeo
       {...props}
       titleTemplate={customTemplate}
-      title={title ?? "IOJEK"}
+      title={title ?? "I-Ojek"}
     />
   );
 };

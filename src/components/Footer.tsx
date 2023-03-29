@@ -7,7 +7,7 @@ const Footer = () => {
         <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
           © 2023{" "}
           <Link href="/" className="hover:underline">
-            IOJEK
+            I-Ojek
           </Link>
           . All Rights Reserved.
         </span>

@@ -66,6 +66,6 @@ const aboutConfig = [
   },
 ];
 
-export type PortofolioConfigType = typeof aboutConfig;
+export type AboutConfigType = typeof aboutConfig;
 
 export default aboutConfig;

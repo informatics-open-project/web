@@ -22,12 +22,13 @@ const BottomNavigation = ({ links }: BottomNavigationProps) => {
       <button
         className={`${
           checkRoute("/") ? "!hidden" : "!flex"
-        } filled-button fixed bottom-24 right-4 !rounded-full`}
+        } filled-button fixed bottom-40 right-4 !rounded-full`}
         // eslint-disable-next-line @typescript-eslint/no-misused-promises
         onClick={() => router.push("/request-quotation")}
       >
         Minta Penawaran
       </button>
+
       <div className="fixed bottom-0 left-0 right-0 flex max-h-20 w-full justify-around border-t bg-white p-2">
         {links.map((link) => {
           return (

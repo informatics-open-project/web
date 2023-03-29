@@ -6,6 +6,8 @@ import CustomSeo from "./CustomSEO";
 import Footer from "./Footer";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { IconBrandWhatsapp } from "@tabler/icons-react";
+import { twMerge } from "tailwind-merge";
 
 type ContainerProps = {
   children: React.ReactNode;
@@ -14,6 +16,9 @@ type ContainerProps = {
 
 const Container = ({ children, pageTitle }: ContainerProps) => {
   const router = useRouter();
+  const checkRoute = (href: string) => {
+    return router.pathname === href;
+  };
 
   return (
     <>
@@ -26,10 +31,9 @@ const Container = ({ children, pageTitle }: ContainerProps) => {
               // eslint-disable-next-line @typescript-eslint/no-misused-promises
               onClick={() => router.push("/")}
             >
-              <span>IOJEK</span>
-              <span className="text-[12px] ">by</span>
+              <Image width={24} height={24} src="/iojek-logo.svg" alt="HMIF" />
 
-              <Image width={24} height={24} src="/hmif-logo.svg" alt="HMIF" />
+              <span className="text-xl font-semibold tracking-wide">iojek</span>
             </div>
           }
           links={navigationConfig}
@@ -43,6 +47,18 @@ const Container = ({ children, pageTitle }: ContainerProps) => {
         <div className="mb-10 hidden md:flex">
           <Footer />
         </div>
+
+        <a href="https://wa.me/6281328257894" target="_blank">
+          <button
+            className={twMerge(
+              "filled-button fixed bottom-24 right-4 hidden gap-2 !rounded-full !bg-green-500 hover:!bg-green-600 focus:ring-green-400 md:bottom-6 md:right-6 md:flex",
+              checkRoute("/") ? "!hidden" : "!flex"
+            )}
+          >
+            Konsultasi Gratis
+            <IconBrandWhatsapp />
+          </button>
+        </a>
       </div>
     </>
   );

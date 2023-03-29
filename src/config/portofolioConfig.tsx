@@ -10,11 +10,11 @@ import {
 const portofolioConfig = [
   {
     id: 1,
-    title: "Informatics Gathering (I-Gate) 2022 Ticket Website",
+    title: "I-Gate 2022 Ticket Website",
     href: "https://igate.hmif-undip.com",
     description:
-      "Informatics Gathering (I-GATE) merupakan kegiatan penyambutan mahasiswa tingkatan 2022 serta perkenalan dan pentas seni setiap tingkatan. Program ini bertujuan untuk meningkatkan rasa kekeluargaan dan mempererat kebersamaan antar keluarga Informatika Undip dan meningkatkan tali silaturahmi keluarga besar Informatika Undip. Selain itu, kegiatan I-GATE juga dapat mendukung terciptanya suasana yang kondusif dalam keluarga Informatika Undip.",
-    image: "/i-gate.png",
+      "I-GATE merupakan kegiatan penyambutan mahasiswa tingkatan 2022 serta perkenalan dan pentas seni setiap tingkatan yang diadakan oleh Himpunan Mahasiswa Informatika.",
+    image: "/portofolio/i-gate.png",
     stack: [
       {
         title: "Next.js",
@@ -40,8 +40,8 @@ const portofolioConfig = [
     title: "Anforcom 2022 Landing Page",
     href: "https://anforcom.com",
     description:
-      "Annual Informatic Competition (Anforcom) adalah sebuah kompetisi mobile apps berskala nasional yang diselenggarakan oleh Himpunan Mahasiswa Informatika Universitas Diponegoro. Kami membuat website landing page untuk Anforcom 2022",
-    image: "/anforcom-web.png",
+      "Lomba teknologi tahunan yang diadakan oleh Himpunan Mahasiswa Informatika Universitas Diponegoro.",
+    image: "/portofolio/anforcom-web.png",
     stack: [
       {
         title: "Next.js",
@@ -63,8 +63,8 @@ const portofolioConfig = [
     title: "Anforcom 2022 Dashboard Page",
     href: null,
     description:
-      "Annual Informatic Competition (Anforcom) adalah sebuah kompetisi mobile apps berskala nasional yang diselenggarakan oleh Himpunan Mahasiswa Informatika Universitas Diponegoro. Kami membuat dashboard page untuk Anforcom 2022",
-    image: "/anforcom-app.png",
+      "Lomba teknologi tahunan yang diadakan oleh Himpunan Mahasiswa Informatika Universitas Diponegoro.",
+    image: "/portofolio/anforcom-app.png",
     stack: [
       {
         title: "Node.js",
@@ -87,11 +87,11 @@ const portofolioConfig = [
 
   {
     id: 4,
-    title: "Informatics Ongoing Story (IoS) 2022 Website",
+    title: "Informatics Ongoing Story 2022 Website",
     href: "https://ios.hmif-undip.com",
     description:
-      "Informatics Ongoing Story adalah buletin daring yang menyediakan informasi seputar teknologi, informatika, dan Departemen Informatika Universitas Diponegoro kepada mahasiswa Informatika dan masyarakat umum.",
-    image: "/ios.png",
+      "Informatics Ongoing Story adalah buletin daring yang menyediakan informasi seputar Departemen Informatika Universitas Diponegoro.",
+    image: "/portofolio/ios.png",
     stack: [
       {
         title: "Next.js",

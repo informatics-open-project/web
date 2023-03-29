@@ -23,6 +23,6 @@ const About = () => {
   );
 };
 
-About.pageTitle = "About Us";
+About.title = "About Us";
 
 export default About;
