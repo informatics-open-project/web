@@ -12,16 +12,20 @@ const Footer = () => {
           . All Rights Reserved.
         </span>
         <ul className="mt-3 flex flex-wrap items-center text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-          <li>
+          {/* <li>
             <Link
               href="/privacy-policy"
               className="mr-4 hover:underline md:mr-6"
             >
               Ketentuan Privasi
             </Link>
-          </li>
+          </li> */}
           <li>
-            <Link href="/terms-conditions" className="hover:underline">
+            <Link
+              href="https://drive.google.com/drive/folders/1MF0LaWcPHcdgFStnKkX5RVrvBXqivFEl"
+              target="_blank"
+              className="hover:underline"
+            >
               Syarat dan Ketentuan
             </Link>
           </li>

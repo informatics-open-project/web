@@ -15,7 +15,7 @@ const About = () => {
             width="100%"
             height="100vh"
             className="mx-auto h-screen max-w-[724px]"
-            src="https://docs.google.com/document/d/e/2PACX-1vRY-tUpyXx5k3hvvgKjb8wJrISAsnpngQvMFDdPmX6UX9dNgXwMPG1MbJVvNywz3RFefN-q6Lvql26X/pub?embedded=true"
+            src="/syarat-ketentuan.pdf"
           />
         </div>
       </div>
