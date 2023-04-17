@@ -44,21 +44,28 @@ const Home = () => {
             >
               Minta Penawaran
             </button>
-            <a href="https://wa.me/6281328257894" target="_blank">
-              <button className="outline-button flex gap-2">
-                Konsultasi Gratis
-                <IconBrandWhatsapp />
-              </button>
-            </a>
-          </div>
 
-          <div className="mt-2 flex flex-col items-center gap-4 sm:flex-row md:mt-8">
             <a
               href="https://drive.google.com/drive/folders/1MF0LaWcPHcdgFStnKkX5RVrvBXqivFEl"
               target="_blank"
               className="text-sm text-blue-500 hover:text-blue-800"
             >
-              Syarat dan Ketentuan
+              <button
+                className="filled-button"
+                // eslint-disable-next-line @typescript-eslint/no-misused-promises
+                onClick={() => router.push("/request-quotation")}
+              >
+                Syarat dan Ketentuan
+              </button>
+            </a>
+          </div>
+
+          <div className="mt-2 flex flex-col items-center gap-4 sm:flex-row">
+            <a href="https://wa.me/6281328257894" target="_blank">
+              <button className="outline-button flex gap-2">
+                Konsultasi Gratis
+                <IconBrandWhatsapp />
+              </button>
             </a>
           </div>
         </div>
