@@ -10,7 +10,22 @@ const RequestQuotation = () => {
           </span>
         </div>
 
-        <div className="mb-12 w-full text-center md:mb-28">
+        <div className="mt-2 flex flex-col items-center justify-center gap-1 rounded-xl bg-red-200 p-4 text-sm sm:flex-row md:mt-8">
+          <span className="font-bold">Perhatian!</span>
+          <span>
+            Baca syarat dan ketentuan terlebih dahulu sebelum mengisi form.
+          </span>
+
+          <a
+            href="https://drive.google.com/drive/folders/1MF0LaWcPHcdgFStnKkX5RVrvBXqivFEl"
+            target="_blank"
+            className="text-sm text-blue-500 hover:text-blue-800"
+          >
+            Syarat dan Ketentuan
+          </a>
+        </div>
+
+        <div className="mb-12 mt-12 w-full text-center md:mb-28">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLScABR75mI1TfM2KtJP_P1gcs-YN1bnZhxzZGkeTQQCywsxKPQ/viewform?embedded=true"
             width="100%"
