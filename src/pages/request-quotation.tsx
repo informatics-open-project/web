@@ -10,7 +10,7 @@ const RequestQuotation = () => {
           </span>
         </div>
 
-        <div className="mt-2 flex flex-col items-center justify-center gap-1 rounded-xl bg-red-200 p-4 text-sm sm:flex-row md:mt-8">
+        <div className="m-4 mt-2 flex flex-col items-center justify-center gap-1 rounded-xl bg-red-200 p-4 text-center text-sm sm:flex-row md:mt-8">
           <span className="font-bold">Perhatian!</span>
           <span>
             Baca syarat dan ketentuan terlebih dahulu sebelum mengisi form.
