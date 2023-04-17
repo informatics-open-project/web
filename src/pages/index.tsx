@@ -75,7 +75,7 @@ const Home = () => {
             <span className="text-2xl font-bold md:text-4xl">Proyek Kami</span>
           </div>
           <div className="mb-0 flex flex-col items-center gap-6 md:mb-28">
-            <div className=" columns-1 gap-6 md:columns-2">
+            <div className="columns-1 items-start gap-6 md:columns-2">
               {portofolioConfig.slice(0, 2).map((item) => (
                 <PortofolioCard key={item.id} data={item} />
               ))}
