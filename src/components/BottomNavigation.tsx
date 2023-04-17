@@ -1,5 +1,4 @@
 import { useRouter } from "next/router";
-import { twJoin, twMerge } from "tailwind-merge";
 
 type BottomNavigationItemProps = {
   label: string;

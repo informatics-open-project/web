@@ -51,6 +51,16 @@ const Home = () => {
               </button>
             </a>
           </div>
+
+          <div className="mt-2 flex flex-col items-center gap-4 text-blue-500 hover:text-blue-800 sm:flex-row md:mt-8">
+            <a
+              href="https://drive.google.com/drive/folders/1MF0LaWcPHcdgFStnKkX5RVrvBXqivFEl"
+              target="_blank"
+              className="text-sm"
+            >
+              Syarat dan Ketentuan
+            </a>
+          </div>
         </div>
 
         <div className="mb-0 mt-28 flex w-full flex-col md:mb-28">

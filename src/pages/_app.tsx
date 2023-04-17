@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
         onExitComplete={() => window.scrollTo(0, 0)}
         mode="wait"
       >
-        <div className={`${jakartaSans.variable} font-serif`}>
+        <div className={`${jakartaSans.variable} font-serif antialiased`}>
           <div className="fixed -z-10 h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-blue-100" />
           <NextProgress />
           <Component {...pageProps} />

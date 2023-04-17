@@ -1,6 +1,6 @@
 import type { NavigationConfigType } from "@/config/navigationConfig";
 import { useRouter } from "next/router";
-import { twJoin, twMerge } from "tailwind-merge";
+import { twJoin } from "tailwind-merge";
 
 type HeaderProps = {
   logo: string | React.ReactNode;
