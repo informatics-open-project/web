@@ -22,9 +22,9 @@ const config = {
     domains: ["dummyimage.com", "github.com"],
   },
   experimental: {
-    fontLoaders: [
-      { loader: "next/font/google", options: { subsets: ["latin"] } },
-    ],
+    // fontLoaders: [
+    //   { loader: "next/font/google", options: { subsets: ["latin"] } },
+    // ],
   },
 };
 export default config;
