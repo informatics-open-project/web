@@ -7,7 +7,7 @@ const Footer = () => {
         <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
           © 2023{" "}
           <Link href="/" className="hover:underline">
-            I-Ojek
+            I-Pro
           </Link>
           . All Rights Reserved.
         </span>
@@ -22,7 +22,7 @@ const Footer = () => {
           </li> */}
           <li>
             <Link
-              href="https://drive.google.com/drive/folders/1MF0LaWcPHcdgFStnKkX5RVrvBXqivFEl"
+              href="https://bit.ly/SyaratKetentuan-IPRO2024"
               target="_blank"
               className="hover:underline"
             >

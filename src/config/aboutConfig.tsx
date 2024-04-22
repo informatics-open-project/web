@@ -31,12 +31,17 @@ const aboutConfig = [
   {
     id: 2,
     name: "Kristian David",
-    role: "UI/UX",
+    role: "Frontend Developer",
     social: [
       {
         title: "Github",
         href: "https://github.com/kristiandavidd",
         icon: <IconBrandGithub />,
+      },
+      {
+        title: "Instagram",
+        href: "https://instagram.com/kristiandavidd",
+        icon: <IconBrandInstagram />,
       },
     ],
     image: "https://github.com/kristiandavidd.png",
@@ -48,7 +53,7 @@ const aboutConfig = [
     social: [
       {
         title: "Github",
-        href: "https://github.com/dinug-c",
+        href: "https://github.com/masturing",
         icon: <IconBrandGithub />,
       },
       {
@@ -62,7 +67,49 @@ const aboutConfig = [
         icon: <IconBrandInstagram />,
       },
     ],
-    image: "https://github.com/dinug-c.png",
+    image: "https://github.com/masturing.png",
+  },
+  {
+    id: 4,
+    name: "Dian Pagita",
+    role: "Backend Developer",
+    social: [
+      {
+        title: "Github",
+        href: "https://github.com/kurzzt",
+        icon: <IconBrandGithub />,
+      },
+      
+    ],
+    image: "https://github.com/kurzzt.png",
+  },
+  {
+    id: 5,
+    name: "Mahardika Putra",
+    role: "Mobile Developer",
+    social: [
+      {
+        title: "Github",
+        href: "https://github.com/PlattenEcho",
+        icon: <IconBrandGithub />,
+      },
+
+    ],
+    image: "https://github.com/plattenecho.png",
+  },
+  {
+    id: 6,
+    name: "Daffa aly",
+    role: "Frontend Developer",
+    social: [
+      {
+        title: "Github",
+        href: "https://github.com/falydra",
+        icon: <IconBrandGithub />,
+      },
+
+    ],
+    image: "https://github.com/falydra.png",
   },
 ];
 

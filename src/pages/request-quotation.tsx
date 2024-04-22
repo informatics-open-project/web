@@ -17,7 +17,7 @@ const RequestQuotation = () => {
           </span>
 
           <a
-            href="https://drive.google.com/drive/folders/1MF0LaWcPHcdgFStnKkX5RVrvBXqivFEl"
+            href="https://bit.ly/SyaratKetentuan-IPRO2024"
             target="_blank"
             className="text-sm text-blue-500 hover:text-blue-800"
           >
@@ -27,9 +27,9 @@ const RequestQuotation = () => {
 
         <div className="mb-12 mt-12 w-full text-center md:mb-28">
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScABR75mI1TfM2KtJP_P1gcs-YN1bnZhxzZGkeTQQCywsxKPQ/viewform?embedded=true"
+            src="https://bit.ly/PendaftaranProyek-IPRO2024"
             width="100%"
-            height="2800"
+            height="3000"
           >
             Loading…
           </iframe>

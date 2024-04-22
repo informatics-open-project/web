@@ -48,7 +48,7 @@ const Container = ({ children, pageTitle }: ContainerProps) => {
           <Footer />
         </div>
 
-        <a href="https://wa.me/6281328257894" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=6289655239628&text=Halo%20kak%20saya%20ingin%20berkonsultasi%20terkait%20pembuatan%20website%20dan%20aplikasi%20di%20Informatics%20Open%20Project" target="_blank">
           <button
             className={twMerge(
               "filled-button fixed bottom-24 right-4 hidden gap-2 !rounded-full !bg-green-500 hover:!bg-green-600 focus:ring-green-400 md:bottom-6 md:right-6 md:flex",
