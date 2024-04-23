@@ -33,7 +33,7 @@ const Container = ({ children, pageTitle }: ContainerProps) => {
             >
               <Image width={24} height={24} src="/iojek-logo.svg" alt="HMIF" />
 
-              <span className="text-xl font-semibold tracking-wide">iojek</span>
+              <span className="text-xl font-semibold tracking-wide">ipro</span>
             </div>
           }
           links={navigationConfig}
