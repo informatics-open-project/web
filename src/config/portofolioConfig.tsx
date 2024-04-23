@@ -5,7 +5,6 @@ import {
   IconBrandNextjs,
   IconBrandTailwind,
   IconBrandTypescript,
-  IconBrandTailwind,
   IconBrandNodejs,
   IconBrandFlutter
 } from "@tabler/icons-react";
