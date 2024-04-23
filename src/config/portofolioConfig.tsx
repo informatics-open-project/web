@@ -5,14 +5,14 @@ import {
   IconBrandNextjs,
   IconBrandTailwind,
   IconBrandTypescript,
+  IconBrandFlutter,
   IconBrandNodejs,
-  IconBrandFlutter
 } from "@tabler/icons-react";
 
 const portofolioConfig = [
   {
     id: 1,
-    title: "Pemira HMTP 20204 Website",
+    title: "Pemira HMTP 2024 Website",
     href: "https://hmtp2024.pemira.app",
     description:
       "Pemira HMTP merupakan sebuah platform untuk pemilihan ketua himpunan Himpunan Mahasiswa Teknik Planologi",
